@@ -1,5 +1,4 @@
-from django.forms import BaseModelForm
-from django.http import HttpResponse
+from django.views import View
 from django.views.generic import ListView, DetailView, UpdateView, DeleteView, CreateView
 from django.contrib.auth.mixins import LoginRequiredMixin, UserPassesTestMixin
 from django.urls import reverse_lazy
