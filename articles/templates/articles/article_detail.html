@@ -10,7 +10,7 @@
 </div>
 <hr>
 <h4>Comments</h4>
-{% for comment in article.comment.comments %}
+{% for comment in article.comment_set.all %}
 <p>{{ comment.author }} &middot; {{ comment }}</p>
 {% endfor %}
 <hr>
